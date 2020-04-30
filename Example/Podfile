@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FFWdiget_Example' do
+  pod 'FFWdiget', :path => '../'
+
+  target 'FFWdiget_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
