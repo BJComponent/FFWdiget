@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A435D86A245AD8710059FA1B /* UITableViewCell+FFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D868245AD8710059FA1B /* UITableViewCell+FFAdd.m */; };
+		A435D86B245AD8710059FA1B /* FFMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D869245AD8710059FA1B /* FFMainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		2141392C71EB761161F9FA90 /* Pods-FFWdiget_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFWdiget_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFWdiget_Tests/Pods-FFWdiget_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4024AD002A0380E1EEC58A23 /* Pods_FFWdiget_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFWdiget_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DEB73212D397A2909A80AAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4DEB73212D397A2909A80AAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFWdiget_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFWdiget_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +61,19 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		686D895E0A7F7DFBEED2D25B /* FFWdiget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFWdiget.podspec; path = ../FFWdiget.podspec; sourceTree = "<group>"; };
+		686D895E0A7F7DFBEED2D25B /* FFWdiget.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFWdiget.podspec; path = ../FFWdiget.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		954D575F3DBD7A67843C0D38 /* Pods-FFWdiget_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFWdiget_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFWdiget_Tests/Pods-FFWdiget_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		98B0E5C58F01E4200DC0FEDE /* Pods_FFWdiget_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFWdiget_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A435D865245AD8710059FA1B /* UITableViewCell+FFAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+FFAdd.h"; sourceTree = "<group>"; };
+		A435D866245AD8710059FA1B /* FFMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMainView.h; sourceTree = "<group>"; };
+		A435D867245AD8710059FA1B /* FFCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCellProtocol.h; sourceTree = "<group>"; };
+		A435D868245AD8710059FA1B /* UITableViewCell+FFAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+FFAdd.m"; sourceTree = "<group>"; };
+		A435D869245AD8710059FA1B /* FFMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMainView.m; sourceTree = "<group>"; };
+		A435D86C245AD89A0059FA1B /* FFWidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFWidget.h; sourceTree = "<group>"; };
 		A769B3F02D685EFEB0B59E56 /* Pods-FFWdiget_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFWdiget_Example.release.xcconfig"; path = "Target Support Files/Pods-FFWdiget_Example/Pods-FFWdiget_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B73818C27A84096FEDBCBBEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B73818C27A84096FEDBCBBEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CA41259447761D5DB443F050 /* Pods-FFWdiget_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFWdiget_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFWdiget_Example/Pods-FFWdiget_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +106,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				A435D85B245AD83C0059FA1B /* FFWdiget */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FFWdiget */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -185,6 +194,44 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A435D85B245AD83C0059FA1B /* FFWdiget */ = {
+			isa = PBXGroup;
+			children = (
+				A435D85C245AD83C0059FA1B /* Classes */,
+				A435D85F245AD83C0059FA1B /* Assets */,
+			);
+			name = FFWdiget;
+			path = ../FFWdiget;
+			sourceTree = "<group>";
+		};
+		A435D85C245AD83C0059FA1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A435D86C245AD89A0059FA1B /* FFWidget.h */,
+				A435D864245AD8710059FA1B /* MainView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A435D85F245AD83C0059FA1B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A435D864245AD8710059FA1B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				A435D866245AD8710059FA1B /* FFMainView.h */,
+				A435D869245AD8710059FA1B /* FFMainView.m */,
+				A435D865245AD8710059FA1B /* UITableViewCell+FFAdd.h */,
+				A435D868245AD8710059FA1B /* UITableViewCell+FFAdd.m */,
+				A435D867245AD8710059FA1B /* FFCellProtocol.h */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		CCE738BB6021707B3889B16D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +240,6 @@
 				954D575F3DBD7A67843C0D38 /* Pods-FFWdiget_Tests.debug.xcconfig */,
 				2141392C71EB761161F9FA90 /* Pods-FFWdiget_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +304,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,9 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A435D86B245AD8710059FA1B /* FFMainView.m in Sources */,
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A435D86A245AD8710059FA1B /* UITableViewCell+FFAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

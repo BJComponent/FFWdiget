@@ -1,0 +1,16 @@
+PODS:
+  - FFWdiget (0.1.0)
+
+DEPENDENCIES:
+  - FFWdiget (from `../`)
+
+EXTERNAL SOURCES:
+  FFWdiget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFWdiget: 4271992b1e6c539bffe7b2a55945142edab3129b
+
+PODFILE CHECKSUM: 17cb828b674744cf9576d23d4ff77d8a8baf1df4
+
+COCOAPODS: 1.7.5

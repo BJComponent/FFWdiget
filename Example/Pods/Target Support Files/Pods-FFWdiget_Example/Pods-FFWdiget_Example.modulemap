@@ -1,0 +1,6 @@
+framework module Pods_FFWdiget_Example {
+  umbrella header "Pods-FFWdiget_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
