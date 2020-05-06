@@ -1,5 +1,5 @@
 PODS:
-  - FFWdiget (0.1.0)
+  - FFWdiget (0.1.1)
 
 DEPENDENCIES:
   - FFWdiget (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFWdiget: 4271992b1e6c539bffe7b2a55945142edab3129b
+  FFWdiget: 6f4417256fdc242e804bb9f065a57cbb3572c401
 
 PODFILE CHECKSUM: 17cb828b674744cf9576d23d4ff77d8a8baf1df4
 
